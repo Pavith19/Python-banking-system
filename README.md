@@ -13,7 +13,7 @@ A comprehensive banking system application built with Python and MySQL, providin
 - 🛡️ Error Handling
 
 ## 📋 Screenshots
-<img src="images/1.jpg" width="150" /> <img src="images/2.jpg" width="150" /> <img src="images/3.jpg" width="150" />
+<img src="images/1.jpg" width="550" /> <img src="images/2.jpg" width="150" /> <img src="images/3.jpg" width="150" />
 
 
 ## 🔧 Prerequisites
