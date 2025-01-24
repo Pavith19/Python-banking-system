@@ -14,8 +14,8 @@ A comprehensive banking system application built with Python and MySQL, providin
 
 ## 📋 Screenshots
 ![Account Creation](images/1.jpg)
-![Deposit Screen](images/deposit_screen.png)
-![Account Details](images/account_details.png)
+![Deposit Screen](images/2.jpg)
+![Account Details](images/3.jpg)
 
 ## 🔧 Prerequisites
 - Python 3.8+
@@ -53,13 +53,6 @@ Run the script:
 python banking_system.py
 ```
 
-## 🛡️ Security Notes
-- Implement additional security measures
-- Use environment variables for credentials
-- Consider password hashing
-
 ## 📄 License
 MIT License
 
-## 🤝 Contributions
-Pull requests welcome!
