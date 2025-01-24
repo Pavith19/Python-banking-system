@@ -1,18 +1,23 @@
-# Python Banking System
+# 🏦 Python Banking System
 
-## Overview
+## 🌟 Overview
 A comprehensive banking system application built with Python and MySQL, providing core banking functionalities.
 
-## Features
-- Account Creation
-- Account Modification
-- Withdrawal
-- Deposit (Current, Savings, Fixed Deposit)
-- View Account Details
-- Input Validation
-- Error Handling
+## ✨ Features
+- 📝 Account Creation
+- 🔧 Account Modification
+- 💸 Withdrawal
+- 💰 Deposit (Current, Savings, Fixed Deposit)
+- 👀 View Account Details
+- ✅ Input Validation
+- 🛡️ Error Handling
 
-## Prerequisites
+## 📋 Screenshots
+![Account Creation](images/account_creation.png)
+![Deposit Screen](images/deposit_screen.png)
+![Account Details](images/account_details.png)
+
+## 🔧 Prerequisites
 - Python 3.8+
 - MySQL
 - Libraries:
@@ -20,42 +25,11 @@ A comprehensive banking system application built with Python and MySQL, providin
   pip install mysql-connector-python prettytable
   ```
 
-## Database Setup
+## 💾 Database Setup
 1. Create MySQL database `banking_system`
-2. Execute database schema:
-```sql
-CREATE TABLE PERSONALDETAILS (
-    ACCNO INT PRIMARY KEY,
-    NAME VARCHAR(100),
-    AGE INT,
-    RESIDENTIALADDRESS VARCHAR(255),
-    EADD VARCHAR(100),
-    PHNO BIGINT
-);
+2. Execute database schema (see README for full schema)
 
-CREATE TABLE CUSTOMERACCOUNT (
-    ACCNO INT PRIMARY KEY,
-    NAME VARCHAR(100),
-    CURRENTACCOUNT DECIMAL(10,2),
-    SAVINGSACCOUNT DECIMAL(10,2) DEFAULT 0,
-    FIXEDDEPOSITS DECIMAL(10,2) DEFAULT 0
-);
-
-CREATE TABLE LOANDETAILS (
-    ACCNO INT PRIMARY KEY,
-    NAME VARCHAR(100),
-    PERSONALLOAN DECIMAL(10,2) DEFAULT 0,
-    HOMELOAN DECIMAL(10,2) DEFAULT 0,
-    AUTOLOAN DECIMAL(10,2) DEFAULT 0,
-    MORTGAGE DECIMAL(10,2) DEFAULT 0
-);
-
-CREATE TABLE ACCNOS (
-    ACCNO INT PRIMARY KEY
-);
-```
-
-## Configuration
+## ⚙️ Configuration
 Update database connection details in script:
 ```python
 mydb = M.connect(
@@ -66,18 +40,26 @@ mydb = M.connect(
 )
 ```
 
-## Data Validations
+## 🔒 Data Validations
 - Name: Letters and spaces, 2+ characters
 - Email: Standard email format
 - Age: 18 years or older
 - Phone: 10-digit number
 - Minimum Account Balance: ₹10,000
 
-## Usage
-Run the script directly:
+## 🚀 Usage
+Run the script:
 ```
 python banking_system.py
 ```
 
-## License
+## 🛡️ Security Notes
+- Implement additional security measures
+- Use environment variables for credentials
+- Consider password hashing
+
+## 📄 License
 MIT License
+
+## 🤝 Contributions
+Pull requests welcome!
