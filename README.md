@@ -13,7 +13,7 @@ A comprehensive banking system application built with Python and MySQL, providin
 - 🛡️ Error Handling
 
 ## 📋 Screenshots
-![Account Creation](images/account_creation.png)
+![Account Creation](images/1.jpg)
 ![Deposit Screen](images/deposit_screen.png)
 ![Account Details](images/account_details.png)
 
